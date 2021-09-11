@@ -23,10 +23,10 @@ namespace CadastroLivros.Livros
 						AtualizarLivro();
 						break;
 					case "4":
-						//ExcluirLivro();
+						ExcluirLivro();
 						break;
 					case "5":
-						//VisualizarLivro();
+						VisualizarLivro();
 						break;
 					case "C":
 						Console.Clear();
@@ -57,7 +57,8 @@ namespace CadastroLivros.Livros
 
 			foreach (var livro in lista)
 			{
-				Console.WriteLine("#ID {0}: - {1}", livro.retornaId(), livro.retornaTitulo());
+                var excluido = livro.retornaExcluido();
+				Console.WriteLine("#ID {0}: - {1} {2}", livro.retornaId(), livro.retornaTitulo(), (excluido ? "*Excluído*" : ""));
 			}
 		}
 
@@ -124,6 +125,25 @@ namespace CadastroLivros.Livros
 
 			repositorio.Atualiza(indiceLivro, atualizaSerie);
 		}
+
+        private static void ExcluirLivro()
+		{
+			Console.Write("Digite o id do livro: ");
+			int indiceLivro = int.Parse(Console.ReadLine());
+
+			repositorio.Exclui(indiceLivro);
+		}
+
+        private static void VisualizarLivro()
+		{
+			Console.Write("Digite o id do livro: ");
+			int indiceLivro = int.Parse(Console.ReadLine());
+
+			var livro = repositorio.RetornaPorId(indiceLivro);
+
+			Console.WriteLine(livro);
+		}
+
 
         private static string ObterOpcaoUsuario()
 		{
