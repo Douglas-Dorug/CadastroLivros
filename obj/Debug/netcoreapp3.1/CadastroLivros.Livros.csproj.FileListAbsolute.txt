@@ -1,0 +1,13 @@
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\bin\Debug\netcoreapp3.1\CadastroLivros.Livros.exe
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\bin\Debug\netcoreapp3.1\CadastroLivros.Livros.deps.json
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\bin\Debug\netcoreapp3.1\CadastroLivros.Livros.runtimeconfig.json
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\bin\Debug\netcoreapp3.1\CadastroLivros.Livros.runtimeconfig.dev.json
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\bin\Debug\netcoreapp3.1\CadastroLivros.Livros.dll
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\bin\Debug\netcoreapp3.1\CadastroLivros.Livros.pdb
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\obj\Debug\netcoreapp3.1\CadastroLivros.Livros.csprojAssemblyReference.cache
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\obj\Debug\netcoreapp3.1\CadastroLivros.Livros.AssemblyInfoInputs.cache
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\obj\Debug\netcoreapp3.1\CadastroLivros.Livros.AssemblyInfo.cs
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\obj\Debug\netcoreapp3.1\CadastroLivros.Livros.csproj.CoreCompileInputs.cache
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\obj\Debug\netcoreapp3.1\CadastroLivros.Livros.dll
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\obj\Debug\netcoreapp3.1\CadastroLivros.Livros.pdb
+C:\Users\Dorug\Documents\WorkSpace .NET\CadastroLivros\CadastroLivros.Livros\obj\Debug\netcoreapp3.1\CadastroLivros.Livros.genruntimeconfig.cache
