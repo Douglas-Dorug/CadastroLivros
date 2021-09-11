@@ -32,6 +32,7 @@ namespace CadastroLivros.Livros
             retorno += "Título: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
             retorno += "Ano de Lançamento: " + this.Ano + Environment.NewLine;
+            retorno += "Ecluído: " + this.Excluido;
             return retorno;
         }
 

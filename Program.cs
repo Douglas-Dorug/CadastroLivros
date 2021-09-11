@@ -20,7 +20,7 @@ namespace CadastroLivros.Livros
 						InserirLivro();
 						break;
 					case "3":
-						//AtualizarLivro();
+						AtualizarLivro();
 						break;
 					case "4":
 						//ExcluirLivro();
@@ -90,6 +90,39 @@ namespace CadastroLivros.Livros
 										descricao: entradaDescricao);
 
 			repositorio.Insere(novaLivro);
+		}
+
+        
+        private static void AtualizarLivro()
+		{
+			Console.Write("Digite o id do livro: ");
+			int indiceLivro = int.Parse(Console.ReadLine());
+
+			// https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
+			// https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-3.1
+			foreach (int i in Enum.GetValues(typeof(Genero)))
+			{
+				Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
+			}
+			Console.Write("Digite o gênero entre as opções acima: ");
+			int entradaGenero = int.Parse(Console.ReadLine());
+
+			Console.Write("Digite o título do livro: ");
+			string entradaTitulo = Console.ReadLine();
+
+			Console.Write("Digite o ano de lançamento do livro: ");
+			int entradaAno = int.Parse(Console.ReadLine());
+
+			Console.Write("Digite a descrição do livro: ");
+			string entradaDescricao = Console.ReadLine();
+
+			Livro atualizaSerie = new Livro(id: indiceLivro,
+										genero: (Genero)entradaGenero,
+										titulo: entradaTitulo,
+										ano: entradaAno,
+										descricao: entradaDescricao);
+
+			repositorio.Atualiza(indiceLivro, atualizaSerie);
 		}
 
         private static string ObterOpcaoUsuario()
